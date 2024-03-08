@@ -9,59 +9,16 @@
 /* Begin PBXBuildFile section */
 		208131E42B9B874700117B68 /* Fruit_list_with_second_screenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208131E32B9B874700117B68 /* Fruit_list_with_second_screenApp.swift */; };
 		208131E62B9B874700117B68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208131E52B9B874700117B68 /* ContentView.swift */; };
-		208131E82B9B874A00117B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208131E72B9B874A00117B68 /* Assets.xcassets */; };
-		208131EB2B9B874A00117B68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208131EA2B9B874A00117B68 /* Preview Assets.xcassets */; };
-		208131F52B9B874A00117B68 /* Fruit_list_with_second_screenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208131F42B9B874A00117B68 /* Fruit_list_with_second_screenTests.swift */; };
-		208131FF2B9B874A00117B68 /* Fruit_list_with_second_screenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208131FE2B9B874A00117B68 /* Fruit_list_with_second_screenUITests.swift */; };
-		208132012B9B874A00117B68 /* Fruit_list_with_second_screenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208132002B9B874A00117B68 /* Fruit_list_with_second_screenUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		208131F12B9B874A00117B68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 208131D82B9B874700117B68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 208131DF2B9B874700117B68;
-			remoteInfo = "Fruit list with second screen";
-		};
-		208131FB2B9B874A00117B68 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 208131D82B9B874700117B68 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 208131DF2B9B874700117B68;
-			remoteInfo = "Fruit list with second screen";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		208131E02B9B874700117B68 /* Fruit list with second screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit list with second screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		208131E32B9B874700117B68 /* Fruit_list_with_second_screenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_list_with_second_screenApp.swift; sourceTree = "<group>"; };
 		208131E52B9B874700117B68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		208131E72B9B874A00117B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		208131EA2B9B874A00117B68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		208131F02B9B874A00117B68 /* Fruit list with second screenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit list with second screenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		208131F42B9B874A00117B68 /* Fruit_list_with_second_screenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_list_with_second_screenTests.swift; sourceTree = "<group>"; };
-		208131FA2B9B874A00117B68 /* Fruit list with second screenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit list with second screenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		208131FE2B9B874A00117B68 /* Fruit_list_with_second_screenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_list_with_second_screenUITests.swift; sourceTree = "<group>"; };
-		208132002B9B874A00117B68 /* Fruit_list_with_second_screenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_list_with_second_screenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		208131DD2B9B874700117B68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		208131ED2B9B874A00117B68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		208131F72B9B874A00117B68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +32,6 @@
 			isa = PBXGroup;
 			children = (
 				208131E22B9B874700117B68 /* Fruit list with second screen */,
-				208131F32B9B874A00117B68 /* Fruit list with second screenTests */,
-				208131FD2B9B874A00117B68 /* Fruit list with second screenUITests */,
 				208131E12B9B874700117B68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				208131E02B9B874700117B68 /* Fruit list with second screen.app */,
-				208131F02B9B874A00117B68 /* Fruit list with second screenTests.xctest */,
-				208131FA2B9B874A00117B68 /* Fruit list with second screenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,35 +49,8 @@
 			children = (
 				208131E32B9B874700117B68 /* Fruit_list_with_second_screenApp.swift */,
 				208131E52B9B874700117B68 /* ContentView.swift */,
-				208131E72B9B874A00117B68 /* Assets.xcassets */,
-				208131E92B9B874A00117B68 /* Preview Content */,
 			);
 			path = "Fruit list with second screen";
-			sourceTree = "<group>";
-		};
-		208131E92B9B874A00117B68 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				208131EA2B9B874A00117B68 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		208131F32B9B874A00117B68 /* Fruit list with second screenTests */ = {
-			isa = PBXGroup;
-			children = (
-				208131F42B9B874A00117B68 /* Fruit_list_with_second_screenTests.swift */,
-			);
-			path = "Fruit list with second screenTests";
-			sourceTree = "<group>";
-		};
-		208131FD2B9B874A00117B68 /* Fruit list with second screenUITests */ = {
-			isa = PBXGroup;
-			children = (
-				208131FE2B9B874A00117B68 /* Fruit_list_with_second_screenUITests.swift */,
-				208132002B9B874A00117B68 /* Fruit_list_with_second_screenUITestsLaunchTests.swift */,
-			);
-			path = "Fruit list with second screenUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +73,6 @@
 			productReference = 208131E02B9B874700117B68 /* Fruit list with second screen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		208131EF2B9B874A00117B68 /* Fruit list with second screenTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 208132072B9B874A00117B68 /* Build configuration list for PBXNativeTarget "Fruit list with second screenTests" */;
-			buildPhases = (
-				208131EC2B9B874A00117B68 /* Sources */,
-				208131ED2B9B874A00117B68 /* Frameworks */,
-				208131EE2B9B874A00117B68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				208131F22B9B874A00117B68 /* PBXTargetDependency */,
-			);
-			name = "Fruit list with second screenTests";
-			productName = "Fruit list with second screenTests";
-			productReference = 208131F02B9B874A00117B68 /* Fruit list with second screenTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		208131F92B9B874A00117B68 /* Fruit list with second screenUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2081320A2B9B874A00117B68 /* Build configuration list for PBXNativeTarget "Fruit list with second screenUITests" */;
-			buildPhases = (
-				208131F62B9B874A00117B68 /* Sources */,
-				208131F72B9B874A00117B68 /* Frameworks */,
-				208131F82B9B874A00117B68 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				208131FC2B9B874A00117B68 /* PBXTargetDependency */,
-			);
-			name = "Fruit list with second screenUITests";
-			productName = "Fruit list with second screenUITests";
-			productReference = 208131FA2B9B874A00117B68 /* Fruit list with second screenUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +85,6 @@
 				TargetAttributes = {
 					208131DF2B9B874700117B68 = {
 						CreatedOnToolsVersion = 15.3;
-					};
-					208131EF2B9B874A00117B68 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 208131DF2B9B874700117B68;
-					};
-					208131F92B9B874A00117B68 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 208131DF2B9B874700117B68;
 					};
 				};
 			};
@@ -220,30 +102,12 @@
 			projectRoot = "";
 			targets = (
 				208131DF2B9B874700117B68 /* Fruit list with second screen */,
-				208131EF2B9B874A00117B68 /* Fruit list with second screenTests */,
-				208131F92B9B874A00117B68 /* Fruit list with second screenUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		208131DE2B9B874700117B68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				208131EB2B9B874A00117B68 /* Preview Assets.xcassets in Resources */,
-				208131E82B9B874A00117B68 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		208131EE2B9B874A00117B68 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		208131F82B9B874A00117B68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,37 +126,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		208131EC2B9B874A00117B68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				208131F52B9B874A00117B68 /* Fruit_list_with_second_screenTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		208131F62B9B874A00117B68 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				208131FF2B9B874A00117B68 /* Fruit_list_with_second_screenUITests.swift in Sources */,
-				208132012B9B874A00117B68 /* Fruit_list_with_second_screenUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		208131F22B9B874A00117B68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 208131DF2B9B874700117B68 /* Fruit list with second screen */;
-			targetProxy = 208131F12B9B874A00117B68 /* PBXContainerItemProxy */;
-		};
-		208131FC2B9B874A00117B68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 208131DF2B9B874700117B68 /* Fruit list with second screen */;
-			targetProxy = 208131FB2B9B874A00117B68 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		208132022B9B874A00117B68 /* Debug */ = {
@@ -421,7 +255,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Fruit list with second screen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -449,7 +282,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Fruit list with second screen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,78 +302,6 @@
 			};
 			name = Release;
 		};
-		208132082B9B874A00117B68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vaidik.Fruit-list-with-second-screenTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruit list with second screen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fruit list with second screen";
-			};
-			name = Debug;
-		};
-		208132092B9B874A00117B68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vaidik.Fruit-list-with-second-screenTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruit list with second screen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fruit list with second screen";
-			};
-			name = Release;
-		};
-		2081320B2B9B874A00117B68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vaidik.Fruit-list-with-second-screenUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fruit list with second screen";
-			};
-			name = Debug;
-		};
-		2081320C2B9B874A00117B68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vaidik.Fruit-list-with-second-screenUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fruit list with second screen";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -559,24 +319,6 @@
 			buildConfigurations = (
 				208132052B9B874A00117B68 /* Debug */,
 				208132062B9B874A00117B68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		208132072B9B874A00117B68 /* Build configuration list for PBXNativeTarget "Fruit list with second screenTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				208132082B9B874A00117B68 /* Debug */,
-				208132092B9B874A00117B68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2081320A2B9B874A00117B68 /* Build configuration list for PBXNativeTarget "Fruit list with second screenUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2081320B2B9B874A00117B68 /* Debug */,
-				2081320C2B9B874A00117B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
